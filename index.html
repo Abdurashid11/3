@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин Pepsi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="pepsi" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
+</head>
+<body>
+
+    <header>
+        <div><strong>PEPSI</strong></div>
+        <nav>
+          <a href="#Продукты">Продукты</a>
+          <a href="#Вещи">Вещи</a>
+          <a href="#contact">Контакты</a>
+          <button class="theme-toggle" onclick="toggleTheme()">red</button>
+          <button class="button1" onclick="hel()">blue
+        <a href="index1.html"><button class="button3">🛒</button></a>
+
+          </button>
+        </nav>
+      </header>
+
+      <section id="Продукты">
+        <div class="bigdiv">
+            <h1 id="magazin" class="h11"></h1>
+            <swiper-container class="swiper-container">
+                <swiper-slide><div>
+                  <img src="img/pepsi clasic.png" style="width: 30%; background-color: white; border-radius: 50px;">
+                  <h2>Pepsi Clasic</h2>
+                  <p>Цена: 15000sum</p>
+                  <button class="button4" onclick="addToCart('Pepsi Clasic', 15000)">Добавить в корзину</button>
+                </div></swiper-slide>
+                <swiper-slide><div>
+                  <img src="img/Pepsi Zero.png" style="width: 30%; background-color: white; border-radius: 50px;">
+                  <h2>Pepsi Zero</h2>
+                  <p>Цена: 15000sum</p>
+                  <button class="button4" onclick="addToCart('Pepsi Zero', 15000)">Добавить в корзину</button>
+                </div></swiper-slide>
+                <swiper-slide><div>
+                  <img src="img/Diet Pepsi.png" style="width: 30%; background-color: white; border-radius: 50px;">
+                  <h2>Pepsi Diet</h2>
+                  <p>Цена: 15000sum</p>
+                  <button class="button4" onclick="addToCart('Pepsi Diet', 15000)">Добавить в корзину</button>
+                </div></swiper-slide>
+                <swiper-slide><div>
+                  <img src="img/pepsi mx.png" style="width: 30%; background-color: white; border-radius: 50px;">
+                  <h2>Pepsi Max</h2>
+                  <p>Цена: 15000sum</p>
+                  <button class="button4" onclick="addToCart('Pepsi Max', 15000)">Добавить в корзину</button>
+                </div></swiper-slide>
+              <swiper-slide><div>
+                <img src="img/pepsi lhait.png" style="width: 30%; background-color: white; border-radius: 50px;">
+                <h2>Pepsi Light</h2>
+                <p>Цена: 15000sum</p>
+                <button class="button4" onclick="addToCart('Pepsi Light', 15000)">Добавить в корзину</button>
+              </div></swiper-slide>
+            </swiper-container>
+        </div>
+      </section>
+
+      <section id="Вещи">
+        <div class="bigdiv">
+            <swiper-container class="swiper-container">
+                <swiper-slide><div>
+                  <img src="img/_572182290_310_430[1] (1).png" style="width: 30%; background-color: white; border-radius: 50px;">
+                  <h2>Pepsi Одежда</h2>
+                  <p>Цена: 150.000sum</p>
+                  <button class="button4" onclick="addToCart('Pepsi Одежда', 150000)">Добавить в корзину</button>
+                </div></swiper-slide>
+                <swiper-slide><div>
+                  <img src="img/s-l1200.png" style="width: 30%; background-color: white; border-radius: 50px;">
+                  <h2>Pepsi Рюкзак</h2>
+                  <p>Цена: 100.000sum</p>
+                  <button class="button4" onclick="addToCart('Pepsi Рюкзак', 100000)">Добавить в корзину</button>
+                </div></swiper-slide>
+                <swiper-slide><div>
+                  <img src="img/original[1].png" style="width: 30%; background-color: white; border-radius: 50px;">
+                  <h2>Pepsi Наушники</h2>
+                  <p>Цена: 80.000sum</p>
+                  <button class="button4" onclick="addToCart('Pepsi ', 80000)">Добавить в корзину</button>
+                </div></swiper-slide>
+                <swiper-slide><div>
+                  <img src="img/image.png" style="width: 30%; background-color: white; border-radius: 50px;">
+                  <h2>Pepsi Спартивный Рюкзак</h2>
+                  <p>Цена: 250.000sum</p>
+                  <button class="button4" onclick="addToCart('Pepsi Спартивный Рюкзак', 250000)">Добавить в корзину</button>
+                </div></swiper-slide>
+              <swiper-slide><div>
+                <img src="img/1-Photoroom.png" style="width: 30%; background-color: white; border-radius: 50px;">
+                <h2>Pepsi Банер</h2>
+                <p>Цена: 1.000.000sum</p>
+                <button class="button4" onclick="addToCart('Pepsi Банер', 1000000)">Добавить в корзину</button>
+              </div></swiper-slide>
+            </swiper-container>
+        </div>
+      </section>    
+
+      <footer id="contact">
+        <h3>Контакты</h3>
+        <p>Email: info@pepsi.com</p>
+        <p>Телефон: +7 (800) 555-35-35</p>
+        <p>&copy; 2025 Pepsi. Все права защищены.</p>
+        <button class="button2"><img src="img/arrow_back_20dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.png" alt=""></button>
+      </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
+</html>
